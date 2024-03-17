@@ -12,30 +12,37 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home.html">Montana</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Index</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="history.html">History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="visit.html">Visit</a>
-          </li>
-        </ul>
+  <!--Header Section-->
+  <header>
+    <!--Navigation bar made with Bootstrap using the documentation https://getbootstrap.com/docs/5.2/components/navbar/-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!--Clicking on the title in the header will take the user to the Home page. Toggler button used to ensure the responsive design of the navbar.-->
+        <a class="navbar-brand" href="home.html">Montana</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!--Aligning the navbar links to the right of the page.-->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Index</a>
+            </li>
+            <!--The currently active page.-->
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visit.html">Visit</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <div>
     <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=22.83645629882813%2C43.23069600586076%2C23.604812622070316%2C43.58685685639638&amp;layer=mapnik" style="border: 1px solid black"></iframe><br /><small><a href="https://www.openstreetmap.org/#map=11/43.4090/23.2206">View Larger Map</a></small>
   </div>
