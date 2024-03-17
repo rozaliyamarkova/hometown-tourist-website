@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background-container {
+    position: fixed; /* Fixed background */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure the background is behind content */
+}
+
+.index_background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the whole page */
+    opacity: 0.5;
+}
+
+.content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.index_coatofarms {
+    margin-top: 50px;
+    width: 20vw;
+    height: auto;
+}
+
+.content-container h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4A4A4A;
+    text-align: center;
+    text-shadow: 2px 2px 4px #aaa; /* Light gray shadow for depth */
+    margin: 20px 0; /* Adjusted margin */
+    line-height: 1.2; /* Spacing between lines */
+    letter-spacing: 1px; /* Space between characters */
+    text-transform: uppercase; /* All uppercase letters */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.links-container {
+    margin-top: 20px; /* Space between text and links */
+}
+
+.index_link {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.index_link:hover {
+    background-color: #dddddd; /* Button background color on hover */
+}
+
+.banner-container {
+    width: 100%;
+    overflow: hidden; /* Makes sure the banner fits well */
+}
+
+.banner_image {
+    width: 100%;
+    height: auto; /* Adjust height automatically */
+    display: block; /* Remove any extra space below the image */
+}
+
+.info-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
